@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+main{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+    background-color: #f4f4f4
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.container > h1{
+    text-align: center; 
+    margin-bottom: 1vh;
+    font-size: 2.5rem;  
+}
+
+.container > p {
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colors div{
+    width: 100px;
+    height: 100px;
+    margin: 1rem 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    transition: .2s;
+    position: relative;
+}
+
+.colors div:hover{
+    transform: scale(1.1);
+}
+
+.colors div p {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+.colors_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;   
+    margin-top: 4vh;
+}
+
+.colors_menu > label{
+    font-size: 1.2rem;
+}
+
+.colors_menu > input{
+    border:1px solid #CCC;
+    border-radius: 8px;
+    height: 44px;
+    width: 80px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.colors_menu > input:focus{
+    outline: none;
+    background-color: #CCC;
+}
+
+#generate-button{
+    background-color: #774caf;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    height: 44px;
+    width: 400px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+#generate-button:hover{
+    background-color: #6b30b8;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+footer div img{
+    width: 32px;
+    opacity: 0.7;
+    transition: .3s;
+}
+
+footer div img:hover{
+    width: 32px;
+    opacity: 1;
+}
