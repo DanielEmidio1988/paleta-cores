@@ -1,4 +1,4 @@
-# Barra de Progresso
+# Paleta de Cores
 
 ## 📖 Introdução 
 
